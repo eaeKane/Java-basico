@@ -24,7 +24,7 @@ public class Projetos {
                 System.out.println(i);
             }
         }
-    sc.close();
+   
     }
 
     public static void Ex03(String[] args){
@@ -39,13 +39,18 @@ public class Projetos {
         for (int i = 0; i < tamanho_palavra ; i++ ){
             System.out.println(palavra.charAt(i));
         }
-    sc.close();
+    
     }
 
     public static void Ex04(String[] args){
         Scanner sc = new Scanner(System.in);
+<<<<<<< HEAD
         System.out.println("Exercicio 4: Desenvolva um programa que solicite ao usuário para inserir um número inteiro positivo \n e, em seguida, exiba a soma de todos os números entre 1 e o número inserido.");
         System.out.println("__________________________________________");
+=======
+        System.out.println("Exercicio 4: Desenvolva um programa que solicite ao usuário para inserir um número in-teiro positivo \n e, em seguida, exiba a soma de todos os números entre 1 e o número inserido.");
+        System.out.println("_____________________________________________")
+>>>>>>> d20e923b6af11c64917a08bd9562cc32a2bfc605
         
         System.out.println("Digite um número inteiro positivo qualquer: ");
         int num = sc.nextInt();
@@ -54,12 +59,15 @@ public class Projetos {
             soma = i + i;
             System.out.println(soma);
         }
-sc.close();  
+  
     }
 
 
 public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
+    int exercicio;
+        
+    do {
         System.out.println("Bem vindo ao sistema de exercicios básicos na linguagem Java!");
         System.out.println("Escolha o exercicio que deseja ver");
         System.out.println("_________________________");
@@ -74,9 +82,9 @@ public static void main(String[] args) {
         System.out.println("| Exercicio 9:           |");
         System.out.println("| Exercicio 10:          |");
         System.out.println("|________________________|");
-        int exercicio = sc.nextInt();
+        exercicio = sc.nextInt();
         
-    do {
+    
         
         switch (exercicio) {
             case 1:
