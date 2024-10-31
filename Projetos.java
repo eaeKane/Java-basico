@@ -24,7 +24,7 @@ public class Projetos {
                 System.out.println(i);
             }
         }
-    sc.close();
+   
     }
 
     public static void Ex03(String[] args){
@@ -39,7 +39,7 @@ public class Projetos {
         for (int i = 0; i < tamanho_palavra ; i++ ){
             System.out.println(palavra.charAt(i));
         }
-    sc.close();
+    
     }
 
     public static void Ex04(String[] args){
@@ -54,12 +54,15 @@ public class Projetos {
             soma = i + i;
             System.out.println(soma);
         }
-sc.close();  
+  
     }
 
 
 public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
+    int exercicio;
+        
+    do {
         System.out.println("Bem vindo ao sistema de exercicios básicos na linguagem Java!");
         System.out.println("Escolha o exercicio que deseja ver");
         System.out.println("_________________________");
@@ -74,9 +77,9 @@ public static void main(String[] args) {
         System.out.println("| Exercicio 9:           |");
         System.out.println("| Exercicio 10:          |");
         System.out.println("|________________________|");
-        int exercicio = sc.nextInt();
+        exercicio = sc.nextInt();
         
-    do {
+    
         
         switch (exercicio) {
             case 1:
