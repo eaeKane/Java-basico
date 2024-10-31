@@ -45,7 +45,7 @@ public class Projetos {
     public static void Ex04(String[] args){
         Scanner sc = new Scanner(System.in);
         System.out.println("Exercicio 4: Desenvolva um programa que solicite ao usuário para inserir um número in-teiro positivo \n e, em seguida, exiba a soma de todos os números entre 1 e o número inserido.");
-        System.out.println("__________________________________________");
+       
         
         System.out.println("Digite um número inteiro positivo qualquer: ");
         int num = sc.nextInt();
