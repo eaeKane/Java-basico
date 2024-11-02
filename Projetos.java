@@ -104,6 +104,20 @@ public class Projetos {
         System.out.println("O maior número é " + maior);
     }
 
+    public static void Ex07(String[] args) {
+        System.out.println("Exercício 7: Crie um programa que exiba a tabuada até o número 10.");
+        System.out.println("___________________________________________");
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Olá, deseja o número que deseja saber a Tabuada: ");
+        int num = sc.nextInt();
+        System.out.println("Tabuada do "+ num);
+        int tabuada = 0;
+        for (int i = 1; i <= 10; i++){
+            tabuada = num * i ;
+            System.out.println(tabuada);
+        }
+
+    }
 
 public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
@@ -146,6 +160,9 @@ public static void main(String[] args) {
 
             case 6:
             Ex06(args); break;
+
+            case 7:
+            Ex07(args); break;
 
             case 0:
             System.out.println("Obrigado por visualizar o sistema de exercicios básicos em Java!"); break;
